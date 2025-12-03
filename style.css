@@ -1,0 +1,95 @@
+
+h1{
+    text-align: center;
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px white;
+    letter-spacing: 10px;
+}
+
+html{
+    height: 1500px;
+    background-image: linear-gradient(black,gray);
+    
+}
+.cars{
+    color: aliceblue;
+    font-size: 24px;
+   display: flex;
+    gap: 150px;
+    list-style: none;
+    
+}
+.bmw_frame{
+    width: 600px;
+    height: 600px;
+    border: 0;
+    margin: 0;
+}
+
+.align{
+
+    text-align: center;
+    object-fit: cover;
+}
+
+#Us{
+    color: whitesmoke;
+    
+    
+}
+
+a{
+    color: aliceblue;
+    
+}
+
+.buttun {
+border-radius: 5px;
+width: 50px;
+box-shadow: 0 0 15px black;
+cursor: pointer;
+
+}
+
+.buttun :focus{
+box-shadow: 2px 2px 10px blue;
+}
+.new_vidio{
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.inside{
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px;
+  
+}
+.red{
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px
+}
+.Support{
+    text-shadow: 2px 2px 5px black;
+
+}
+#Full_Name{
+    box-shadow: 2px 2px 5px blue;
+}
+#email{
+    box-shadow: 2px 2px 5px blue;
+}
+#number{
+     box-shadow: 2px 2px 5px blue;
+}
+#textarea{
+     box-shadow: 2px 2px 5px blue;
+}
+.Bayerische{
+    color: aliceblue;
+    width: 25px;
+}
