@@ -41,3 +41,17 @@ h1{
     object-position: center;
     display: inline-block;
 }
+
+.news-text{
+    text-shadow: 2px 2px 20px white;
+
+}
+
+.news-text2{
+    text-shadow: 2px 2px 20px lightslategrey;
+}
+
+.back :hover{
+    color: white;
+
+}
