@@ -63,33 +63,6 @@ color: rgb(173, 23, 23);
 }
 
 
-.Back{
-    color: white;
-    text-decoration: none;
-}
-
-
-.news-text2:active{
-background: #1900ff;
-color: #ff9800;
-}
-
-.back:hover{
-    background: #ffffff;
-
-}
-
-
-  .back:active {
-    background: #ff9800;
-    color: #fff;
-}
-
-
-
-
-
-
 header {
             text-align: center;
             margin-top: 50px;
