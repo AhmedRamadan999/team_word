@@ -30,7 +30,6 @@ h1{
     display: inline-block;
     box-shadow: 2px 2px 20px rgb(230, 16, 16);
     border-radius: 6px;
-    overflow: hidden;
     display: inline-block;
 
 }
@@ -45,7 +44,12 @@ h1{
 
 .news-text{
     text-shadow: 2px 2px 20px white;
+    
+}
 
+.news-text:active{
+background: #1900ff;
+color: #ff9800;
 }
 
 .news-text2{
@@ -57,8 +61,56 @@ h1{
 span.a:hover {
 color: rgb(173, 23, 23);
 }
+
+
 .Back{
     color: white;
     text-decoration: none;
+}
+
+
+.news-text2:active{
+background: #1900ff;
+color: #ff9800;
+}
+
+.back:hover{
+    background: #ffffff;
 
 }
+
+
+  .back:active {
+    background: #ff9800;
+    color: #fff;
+}
+
+
+
+
+
+
+header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .back-container {
+            margin-top: 20px;
+        }
+
+        .back {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .back:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
