@@ -60,6 +60,7 @@ transition: transform 0.1s
 }
 .buttun:hover{
 transform: translateX(3px);
+background-color: rgb(205, 202, 205);
 }
 
 .buttun :focus{
