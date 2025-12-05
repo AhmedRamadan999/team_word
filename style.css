@@ -54,7 +54,12 @@ width: 50px;
 box-shadow: 0 0 15px black;
 cursor: pointer;
 translate: 0px 70px;
+transition: transform 0.1s
 
+
+}
+.buttun:hover{
+transform: translateX(3px);
 }
 
 .buttun :focus{
