@@ -11,45 +11,41 @@
         }
     </style>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Page.html">
 
 </head>
 
 <body>
+
     <header>
-        <div>
-            <header>
-                <h1>BMW</h1>
-                <p id="Home" hidden>Home</p>
+        <h1>BMW</h1>
+        <p id="Home" hidden>Home</p>
 
-
-                <nav>
-                    <ul class="cars">
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="#Home">Home</a></li>
-                        <li><a
-                                href="https://www.bmw.de/de/index.html?clc=1a1mm01dj1b01br9&tl=sea-yhbn-DE_BMW_NC_BRAND%20PURE_DEU_BND_ALO_BMW%20V2023DE%20LO%20BR%20024_CONV_%20_SEABNG-mix-miy--sech-BRA_BND_BRAND%20PURE_MUL_NONE-.-e-bmw-.-.&clc=sea-yhbn-DE_BMW_NC_BRAND%20PURE_DEU_BND_ALO_BMW%20V2023DE%20LO%20BR%20024_CONV_%20_SEABNG-mix-&gaw=sea:1168782801806653_kwd-73049679238790:loc-72&msclkid=404c8478061612b8fee8ed49af23fd8f&gclid=CMmdyKKgpJEDFZ4DXgEdH_87vQ&gclsrc=ds&gad_source=7&gad_campaignid=16390445917">Page</a>
-                        </li>
-                        <li><a href="#Us">support</a></li>
-
-                    </ul>
-                </nav>
-
-            </header>
+        <div class="header-container">
             <nav>
-
-                <ul class="cars">
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="">Page</a></li>
-                    <li><a href="#Us">support</a></li>
-
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Products</a>
+                        <div class="dropdown-content">
+                            <a href="#">Electronics</a>
+                            <a href="#">Home</a>
+                            <a href="#">Sports</a>
+                        </div>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">support</a></li>
+                    <li>
+                        <a href="news.html">news</a>
+                    </li>
                 </ul>
-        </div>
-        </nav>
-
+            </nav>
         </div>
     </header>
+
+
+
+
     <main>
         <section>
             <div class="align">
@@ -67,28 +63,71 @@
         <video src="multi.mp4" class="new_vidio" autoplay muted></video>
         <video src="red.mp4" class="red" autoplay muted></video>
         <video src="inside.mp4" class="inside" autoplay muted></video>
+
+        <!-- Contact Form -->
+        <section class="contact">
+            <div class="contact-container">
+                <h2 class="section-title">Contact Us</h2>
+                <form class="contact-form" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
     </main>
     <footer>
-        <div>
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">Ahmed <span>Zone</span></div>
+                <p>We provide quality products at competitive prices with excellent customer service.</p>
+                <div class="social-links">
+                    <a href="#"><i>f</i></a>
+                    <a href="#"><i>t</i></a>
+                    <a href="#"><i>in</i></a>
+                    <a href="#"><i>ig</i></a>
+                </div>
+            </div>
 
-            <label for="name">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
 
-                <h2 id="Us"><strong class="Support">Support</strong></h2>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <p><i>📍</i> königstr.33 44145 dortmund</p>
+                <p><i>📞</i> </p>
+                <p><i>✉️</i> info@ahmedzone.com</p>
+                <p><i>🕒</i> Mon-Fri: 9AM-6PM</p>
+            </div>
+        </div>
 
-                <input type="name" placeholder="Full_Name" id="Full_Name">
-                <br>
-                <br>
-                <input type="email" name="email" id="email" placeholder="email">
-                <br>
-                <br>
-                <input type="number" name="number" placeholder="Number" id="number">
-                <br>
-                <br>
-                <textarea name="textarea" placeholder="Write here" id="textarea"></textarea>
-                <br>
-                <br>
-                <button class="buttun">Send</button>
-            </label>
+        <div class="copyright">
+            <p>&copy; 2025 Ahmed Zone. All Rights Reserved.</p>
         </div>
     </footer>
 
